@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import os, sys
 from rdg import generator
 
 def main():
@@ -11,9 +10,9 @@ def main():
     for i in range(0, height):
         for j in range(0, width):
             if g.map[i][j] == 0:
-                    print '#',
+                    print ' ',
             else:
-                print ' ',
+                print '*',
         print ''
 
 if __name__ == '__main__':
